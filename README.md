@@ -7,3 +7,9 @@ HTML, CSS, JS, JQ, Gulp, SASS, resonsive., polyfill
 
 
 PSD on https://drive.google.com/file/d/1WUyt2u1JNL1xsebkfBHklnoCQwgmtzLD/view?usp=sharing
+
+
+![alt text](https://github.com/AlexJustFly/Restaurant-site-model/blob/master/preview%20images/prev-img-1.jpg)
+![alt text](https://github.com/AlexJustFly/Restaurant-site-model/blob/master/preview%20images/prev-img-2.jpg)
+![alt text](https://github.com/AlexJustFly/Restaurant-site-model/blob/master/preview%20images/prev-img-3.jpg)
+    
