@@ -27,25 +27,25 @@
 	<script src="js/datalist-polyfill.min.js"></script>
 </head>
 <body>
-
+<a href="#" class="scrollup"></a>
 <div class="site">
-	<header class="header">
+	<header class="header" id="header">
 		<nav class="navigation container-fluid">
 			<div class="nav__logo">
 				<a href="#"><img src="img/header-logo.png" alt="header-logo"></a>
 			</div>
 			<div class="navigation__container">
 				<ul class="nav">
-					<li class="nav-item"><a href="" class="nav-link">Home</a></li>
-					<li class="nav-item"><a href="" class="nav-link">About</a></li>
-					<li class="nav-item"><a href="" class="nav-link">Ingredients</a></li>
-					<li class="nav-item"><a href="" class="nav-link">Menu</a></li>
-					<li class="nav-item"><a href="" class="nav-link">Reviews</a></li>
-					<li class="nav-item"><a href="" class="nav-link">Reservations</a></li>
+					<li class="nav-item"><a href="#header" class="nav-link" data-target="anchor">Home</a></li>
+					<li class="nav-item"><a href="#about" class="nav-link" data-target="anchor">About</a></li>
+					<li class="nav-item"><a href="#ingredients" class="nav-link" data-target="anchor">Ingredients</a></li>
+					<li class="nav-item"><a href="#menu" class="nav-link" data-target="anchor">Menu</a></li>
+					<li class="nav-item"><a href="#reviews" class="nav-link" data-target="anchor">Reviews</a></li>
+					<li class="nav-item"><a href="#reserve" class="nav-link" data-target="anchor">Reservations</a></li>
 					<div class="nav-item_social">
-						<li class="nav-item"><a href="" class="nav-link nav-social"><i class="fab fa-twitter"></i></a></li>
-						<li class="nav-item"><a href="" class="nav-link nav-social"><i class="fab fa-youtube"></i></a></li>
-						<li class="nav-item"><a href="" class="nav-link nav-social"><i class="fab fa-facebook"></i></a></li>
+						<li class="nav-item"><a href="https://twitter.com/" target="_blank" class="nav-link nav-social"><i class="fab fa-twitter"></i></a></li>
+						<li class="nav-item"><a href="https://www.youtube.com/" target="_blank" class="nav-link nav-social"><i class="fab fa-youtube"></i></a></li>
+						<li class="nav-item"><a href="https://www.facebook.com/" target="_blank" class="nav-link nav-social"><i class="fab fa-facebook"></i></a></li>
 					</div>
 				</ul>
 			</div>
@@ -62,20 +62,24 @@
 			</div>
 			<div class="header__buttons row">
 				<div class="header__button_black col-lg-3 offset-lg-3 offset-md-2 col-md-4 col-sm-6">
-					<button>
-						BOOK A TABLE
-					</button>
+					<a href=".reserve" data-target="anchor">
+						<button>
+							BOOK A TABLE
+						</button>
+					</a>
 				</div>
 				<div class="header__button_white col-lg-3 col-md-4 col-sm-6">
-					<button>
-						SEE THE MENU
-					</button>
+					<a href=".menu" data-target="anchor">
+						<button>
+							SEE THE MENU
+						</button>
+					</a>
 				</div>
 			</div>
 		</section>
 	</header>
 <main class="main">
-	<section class="about container-fluid">
+	<section class="about container-fluid" id="about">
 		<div class="container">
 			<div class="row">
 				<div class="about__content col-lg-4 offset-lg-1">
@@ -98,7 +102,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="ingredients container-fluid">
+	<section class="ingredients container-fluid" id="ingredients">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 offset-lg-6">
@@ -128,7 +132,7 @@
 			</div>
 		</div>		
 	</section>
-	<section class="menu container-fluid">
+	<section class="menu container-fluid" id="menu">
 		<div class="container">
 			<div class="row">
 				<div class="column col-lg-5">
@@ -309,7 +313,7 @@
 			</div>
 		</div>		
 	</section>
-	<section class="reviews container-fluid">
+	<section class="reviews container-fluid" id="reviews">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 offset-lg-2">
@@ -331,7 +335,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="reserve container-fluid">
+	<section class="reserve container-fluid" id="reserve">
 		<div class="container">
 			<div class="row">
 				<div class="reserve__img col-lg-3 col-md-3">
@@ -397,7 +401,7 @@
 			</div>
 		</div>
 	</section>
-	<footer class="footer container-fluid">
+	<footer class="footer container-fluid" id="footer">
 		<div class="container">
 			<div class="row">
 				<div class="footer__content col-lg-4">
@@ -428,10 +432,10 @@
 						</p>
 					</div>
 					<div class="footer__cards">
-						<a href=""><i class="fab fa-cc-amex"></i></a>
-						<a href=""><i class="fab fa-cc-paypal"></i></a>
-						<a href=""><i class="fab fa-cc-visa"></i></a>
-						<a href=""><i class="fab fa-cc-discover"></i></a>
+						<i class="fab fa-cc-amex"></i>
+						<i class="fab fa-cc-paypal"></i>
+						<i class="fab fa-cc-visa"></i>
+						<i class="fab fa-cc-discover"></i>
 					</div>
 				</div>
 				<div class="footer__content col-lg-3 offset-lg-1">
@@ -450,9 +454,9 @@
 						</p>
 					</div>
 					<div class="footer__social">
-						<a href=""><i class="fab fa-facebook-f"></i></a>
-						<a href=""><i class="fab fa-youtube"></i></a>
-						<a href=""><i class="fab fa-twitter"></i></a>
+						<a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+						<a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+						<a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
 					</div>
 				</div>
 			</div>
