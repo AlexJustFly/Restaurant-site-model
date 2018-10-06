@@ -1,5 +1,5 @@
 # Restaurant-site-model
-HTML, CSS, JS, JQ, Gulp, SASS, resonsive., polyfill
+HTML, CSS, JS, JQ, Gulp, SASS, responsive, polyfill
 
 Верстка макета сайта по PSD шаблону, взятого из открытых источников.
 Адаптивная (под разные экраны), кроссбраузерная (под разные браузеры) верстка по БЭМ методологии с использованием препроцессора SASS, фреймворка Bootstrap4, сборщика Gulp.
