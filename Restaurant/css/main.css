@@ -720,7 +720,7 @@ html {
 
 .reserve .row .reserve__content .reserve__form .reserve__form-wrapper .reserve__block .reserve__party .down {
   position: absolute;
-  top: 35%;
+  top: 33%;
   right: 5%;
   color: #7c7c7c;
 }
@@ -766,7 +766,11 @@ html {
   font-weight: bold;
 }
 
-.footer .footer__content .footer__cards a {
+.footer .footer__content .footer__cards {
+  cursor: default;
+}
+
+.footer .footer__content .footer__cards i {
   color: white;
   margin-right: 0.5em;
 }
@@ -832,4 +836,17 @@ html {
 /* datalist IE */
 [hidden] {
   display: none;
+}
+
+.scrollup {
+  width: 40px;
+  height: 40px;
+  opacity: 0.3;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  display: none;
+  text-indent: -9999px;
+  background: url(../img/icon_top.png) no-repeat;
+  z-index: 99999;
 }

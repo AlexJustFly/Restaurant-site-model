@@ -20,3 +20,26 @@ jQuery(document).ready(function() {
     showOtherMonths: true,
   });
 });
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if (
+          $(this).scrollTop() > 100) {
+                $('.scrollup').fadeIn();
+        } else {
+            $('.scrollup').fadeOut();
+        }
+    });
+ 
+    $('.scrollup').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 600);
+return false;
+});
+});
+jQuery(document).ready(function() {
+  $('a[data-target^="anchor"]').bind('click.smoothscroll', function(){
+    var target = $(this).attr('href'),
+        bl_top = $(target).offset().top;
+    $('body, html').animate({scrollTop: bl_top}, 600);
+    return false;
+    })
+});
